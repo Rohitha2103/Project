@@ -12,5 +12,9 @@ It allows users to encrypt and decrypt messages using RSA encryption, compress t
 
 
 ●  RSA encryption with key generation
+
+
 ●  Huffman coding for text compression
+
+
 ●  LSB steganography for hiding compressed text in images
