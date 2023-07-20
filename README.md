@@ -19,8 +19,8 @@ It allows users to encrypt and decrypt messages using RSA encryption, compress t
 
 ●  LSB steganography for hiding compressed text in images
 
-
-**Requirements && Prerequisites **
+**
+Requirements && Prerequisites **
 
 ●  Python 3.x
 
@@ -36,7 +36,7 @@ Libraries:
     
     ● PIL (Python Imaging Library)
    
-   ** Usage:**
+**   Usage:**
 
 1. Run the RSA.py file, The script will prompt you to generate RSA keys (p, q, n, e, and d) or use the existing keys.
 
