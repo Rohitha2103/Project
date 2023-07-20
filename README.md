@@ -21,6 +21,7 @@ It allows users to encrypt and decrypt messages using RSA encryption, compress t
 
 
 **Requirements && Prerequisites **
+
 ●  Python 3.x
 
 Libraries:
