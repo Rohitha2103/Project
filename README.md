@@ -36,7 +36,7 @@ Libraries:
     
     ● PIL (Python Imaging Library)
    
-**   Usage:**
+** Usage:**
 
 1. Run the RSA.py file, The script will prompt you to generate RSA keys (p, q, n, e, and d) or use the existing keys.
 
