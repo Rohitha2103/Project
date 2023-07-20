@@ -140,8 +140,8 @@ def main():
     global n,d,e
     print("**** RSA encryption with Huffman coding and LSB steganography****")
     n,d,e=generate_keys()
-    print("To encrypt a message with the current key, type 'Encrypt'")
-    print("To decrypt a message with the current key, type 'Decrypt'")
+    print("To encrypt a message with the current key, type 'Embedd'")
+    print("To decrypt a message with the current key, type 'Extract'")
     print("To change values of keys,type 'change' ")
     print("Type 'quit' to exit")
     print('\n')
@@ -150,17 +150,17 @@ def main():
     choice = str()
     while choice != 'quit':
         choice = input("Enter Command: ")
-        if choice.lower() == 'encrypt':
+        if choice.lower() == 'embedd':
             Encrypt()
-        elif choice.lower() == 'decrypt':
+        elif choice.lower() == 'extract':
             Decrypt(img_encoded)
         elif choice.lower() == 'change':
             n,e,d=generate_keys()
 
         elif choice.lower() == 'help':
                     print("To redefine n,e, or d, type 'n','e',... etc.")
-                    print("To encrypt a message with the current key, type 'Encrypt'")
-                    print("To decrypt a message with the current key, type 'Decrypt'")
+                    print("To encrypt a message with the current key, type 'Embedd'")
+                    print("To decrypt a message with the current key, type 'Extract'")
                     print("Type quit to exit")
                     print('\n')
                     print('\n')
