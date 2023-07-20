@@ -37,7 +37,7 @@ Libraries:
    
    ** Usage:**
 
-1. Run the RSA.py script using Python. The script will prompt you to generate RSA keys (p, q, n, e, and d) or use the existing keys.
+1. Run the RSA.py file, The script will prompt you to generate RSA keys (p, q, n, e, and d) or use the existing keys.
 
 2. Choose the "Embedd" option to encrypt a plaintext message. Enter the message when prompted.
 
